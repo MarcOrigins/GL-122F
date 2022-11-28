@@ -29,14 +29,9 @@ body {
   margin: 0 !important;
   height: 100%;
   width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background-color: #99ceb5;
-  z-index: 0;
 }
-.alessandro-marconi-button {
+.header-button {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -49,10 +44,10 @@ body {
   text-align: center;
   display: inline-block;
 }
-.alessandro-marconi-button:active {
+.header-button:active {
   color: var(--color-white);
 }
-.alessandro-div {
+.button-div {
   border-radius: var(--br-md);
   background-color: var(--color-gray-200);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,51 +58,22 @@ body {
   align-items: center;
   justify-content: center;
 }
-.claudio-wilkley-button {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  font-size: var(--font-size-base);
-  font-weight: 700;
-  font-family: var(--font-glory);
-  color: var(--color-gray-300);
-  text-align: center;
-  display: inline-block;
-}
-.claudio-wilkley-button:active {
-  color: var(--color-gray-100);
-}
-.cesar-div,
-.header-div {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-items: center;
-}
-.cesar-div {
-  border-radius: var(--br-md);
-  background-color: var(--color-gray-200);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 4px var(--padding-md);
-  justify-content: center;
-}
 .header-div {
   align-self: stretch;
   height: 130px;
   flex-shrink: 0;
   padding: 0 300px;
   justify-content: space-between;
-  position: sticky;
   width: 100%;
   top: 0;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
 }
-.css-positions-and {
-  margin: 0;
-}
-.laboratorio-6-css-positions-a {
+
+.lab6posi {
   position: relative;
   font-weight: 600;
   display: inline-block;
@@ -121,15 +87,12 @@ body {
   height: 150px;
   object-fit: cover;
 }
-.lorem-ipsum-dolor {
+.txtclass1 {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.lorem-ipsum-dolor-container {
-  line-break: anywhere;
-  width: 100%;
-}
-.lorem-ipsum-dolor-sit-amet-co {
+
+.txtpos1 {
   position: absolute;
   top: 194px;
   left: 0;
@@ -138,8 +101,7 @@ body {
   width: 319px;
   height: 126px;
 }
-.articulo-1,
-.articulo-3 {
+.articulo-C {
   text-decoration: none;
   position: relative;
   border-radius: var(--br-sm);
@@ -153,17 +115,12 @@ body {
   overflow: hidden;
   cursor: pointer;
   color: inherit;
+  cursor: auto;
 }
-.articulo-1:hover,
-.articulo-3:hover {
+.articulo-C:hover {
   cursor: pointer;
   animation: 1s linear 0s 1 normal none wobble-hor-bottom;
   opacity: 1;
-}
-.articulo-3 {
-  cursor: auto;
-}
-.articulo-3:hover {
   animation: 1s ease 0s 1 normal none wobble-hor-bottom;
 }
 .articulos-div {
@@ -184,7 +141,7 @@ body {
   height: 254px;
   object-fit: cover;
 }
-.profe-necesitamos-ayudaaaaaaaa {
+.ayudatxt {
   position: absolute;
   top: 125px;
   left: 26.25px;
